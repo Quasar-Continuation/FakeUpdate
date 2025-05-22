@@ -37,7 +37,7 @@ jobs:
         shell: cmd
 
       - name: Zip Build Output
-        run: Compress-Archive -Path "D:\a\FakeUpdate\FakeUpdate\bin\Release\*" -DestinationPath "build_output.zip"
+        run: Compress-Archive -Path "D:\a\FakeUpdate\FakeUpdate\FakeUpdate\bin\Release\*" -DestinationPath "build_output.zip"
         shell: pwsh
 
       - name: Upload Build Artifact
